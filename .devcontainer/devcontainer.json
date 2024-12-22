@@ -35,7 +35,7 @@
         8080,
         8081
     ],
-    "postCreateCommand": "cd ./SampleApp && dotnet restore",
+    "postCreateCommand": "cd ./FleetManagementSystem && dotnet restore",
     "hostRequirements": {
         "memory": "8gb",
         "cpus": 4
@@ -46,11 +46,11 @@
     },
     "portsAttributes": {
         "8080": {
-            "label": "Weather API",
+            "label": "Fleet Management API",
             "onAutoForward": "notify"
         },
         "8081": {
-            "label": "Weather Front End",
+            "label": "Fleet Management Dashboard",
             "onAutoForward": "notify"
         }
     }

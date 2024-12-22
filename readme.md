@@ -2,7 +2,7 @@
 
 Want to try out the latest performance improvements coming with .NET 8 for web development? 
 
-This repo builds a Weather API using Minimal APIs, opens Swagger so you can call and test the API, and displays the data in a web application using Blazor with .NET 8. 
+This repo builds a Fleet Management API using Minimal APIs, opens Swagger so you can call and test the API, and displays the data in a web application using Blazor with .NET 8. 
 
 We've given you both a frontend and backend to play around with and where you go from here is up to you!
 
