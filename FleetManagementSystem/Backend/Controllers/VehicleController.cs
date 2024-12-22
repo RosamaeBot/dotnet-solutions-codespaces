@@ -1,9 +1,9 @@
 
 using Microsoft.AspNetCore.Mvc;
-using BackendAPI.Models;
-using BackendAPI.Services;
+using Backend.Models;
+using Backend.Services;
 
-namespace BackendAPI.Controllers
+namespace Backend.Controllers
 {
     [ApiController]
     [Route("api/vehicles")]

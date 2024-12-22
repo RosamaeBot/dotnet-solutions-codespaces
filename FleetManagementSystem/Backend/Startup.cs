@@ -3,9 +3,10 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using BackendAPI.Services;
+using Backend.Services;
+using Backend.Data;
 
-namespace BackendAPI
+namespace Backend
 {
     public class Startup
     {
@@ -13,6 +14,7 @@ namespace BackendAPI
         {
             services.AddControllers();
             services.AddSingleton<IVehicleService, VehicleService>();
+            services.AddDbContext<VehicleDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)

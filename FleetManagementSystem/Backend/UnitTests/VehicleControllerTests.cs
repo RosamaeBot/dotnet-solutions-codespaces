@@ -1,13 +1,13 @@
 
 using Xunit;
 using Moq;
-using BackendAPI.Controllers;
-using BackendAPI.Models;
-using BackendAPI.Services;
+using Backend.Controllers;
+using Backend.Models;
+using Backend.Services;
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 
-namespace BackendAPI.UnitTests
+namespace Backend.UnitTests
 {
     public class VehicleControllerTests
     {

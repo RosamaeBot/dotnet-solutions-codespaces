@@ -1,8 +1,8 @@
 
-using BackendAPI.Models;
+using Backend.Models;
 using System.Collections.Generic;
 
-namespace BackendAPI.Services
+namespace Backend.Services
 {
     public interface IVehicleService
     {
